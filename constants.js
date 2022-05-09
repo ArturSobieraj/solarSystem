@@ -246,7 +246,7 @@ Neptuna, a więc obiekty Pasa Kuipera, dysku rozproszonego i Obłoku Oorta są w
 let solarSystemObject = {
     title: "Układ Słoneczny",
     content: solarSystemText,
-    images: `<img src="solarImg/solarSystem1.jpg" alt="solar planets"> <img src="solarImg/solarSystem2.jpg" alt="voyagers">`
+    images: `<img src="solarSystem1.jpg" alt="solar planets"> <img src="solarSystem2.jpg" alt="voyagers">`
 }
 
 let sunObject = {

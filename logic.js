@@ -17,6 +17,7 @@ let loadMainText = () => {
     articleTitle.innerHTML = solarSystemObject.title;
     articleContent.innerHTML = solarSystemObject.content;
     document.getElementById("images").innerHTML = solarSystemObject.images;
+    document.getElementById("welcomeSection").scrollIntoView();
 }
 
 let loadObject = object => {
@@ -86,7 +87,7 @@ let loadObject = object => {
     articleTitle.innerHTML = objectToLoad.title;
     articleContent.innerHTML = objectToLoad.content;
     document.getElementById("images").innerHTML = objectToLoad.images;
-    articleTitle.scrollIntoView();
+    document.getElementById("welcomeSection").scrollIntoView();
 }
 
 window.onload = loadMainText();
