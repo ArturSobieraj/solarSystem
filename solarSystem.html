@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="solarStyles.css">
+        <title>Solar System</title>
+    </head>
+    <body background="solarImg/background.png">
+        <section class="main">
+            <section class="banner">
+                <img src="solarImg/solarBanner.png" alt="solar system">
+                <div class="welcome">
+                    <strong>UKŁAD SŁONECZNY</strong>
+                </div>
+            </section>
+            <nav>
+                <ul>
+                    <li onclick="loadMainText()">Start</li>
+                    <li onclick="loadObject('sun')">Słońce</li>
+                    <li class="dropdown">
+                        Planety
+                        <div class="objects-dropdown">
+                            <p onclick="loadObject('merkury')">Merkury</p>
+                            <p onclick="loadObject('wenus')">Wenus</p>
+                            <p onclick="loadObject('earth')">Ziemia</p>
+                            <p onclick="loadObject('mars')">Mars</p>
+                            <p onclick="loadObject('jupiter')">Jowisz</p>
+                            <p onclick="loadObject('saturn')">Saturn</p>
+                            <p onclick="loadObject('uranium')">Uran</p>
+                            <p onclick="loadObject('neptune')">Neptun</p>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        Planety karłowate
+                        <div class="objects-dropdown">
+                            <p onclick="loadObject('ceres')">Ceres</p>
+                            <p onclick="loadObject('pluton')">Pluton</p>
+                            <p onclick="loadObject('haumea')">Haumea</p>
+                            <p onclick="loadObject('makemake')">Makemake</p>
+                            <p onclick="loadObject('eris')">Eris</p>
+                        </div>
+                    </li>
+                    <li onclick="loadObject('kuiper')">Pas Kuipera</li>
+                </ul>
+            </nav>
+            <section class="article">
+                <article>
+                    <h2 id="title"></h2>
+                    <p id="text"></p>
+                </article>
+                <section class="article-img" id="images">
+                </section>
+            </section>
+        </section>
+        <footer>
+             Strona nie ma charakteru komercyjnego. Źródło: wikipedia.org.pl   
+        </footer>
+        <script src="\scripts\constants.js"></script>
+        <script src="\scripts\logic.js"></script>
+    </body>
+</html>
