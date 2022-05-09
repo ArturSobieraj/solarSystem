@@ -246,95 +246,95 @@ Neptuna, a więc obiekty Pasa Kuipera, dysku rozproszonego i Obłoku Oorta są w
 let solarSystemObject = {
     title: "Układ Słoneczny",
     content: solarSystemText,
-    images: `<img src="/solarImg/solarSystem1.jpg" alt="solar planets"> <img src="/solarImg/solarSystem2.jpg" alt="voyagers">`
+    images: `<img src="solarImg/solarSystem1.jpg" alt="solar planets"> <img src="solarImg/solarSystem2.jpg" alt="voyagers">`
 }
 
 let sunObject = {
     title: "Słońce",
     content: sunText,
-    images: `<img src="/solarImg/sun1.jpg" alt="sun1"> <img src="/solarImg/sun2.jpg" alt="sun2">`
+    images: `<img src="solarImg/sun1.jpg" alt="sun1"> <img src="solarImg/sun2.jpg" alt="sun2">`
 }
 
 let merkuryObject = {
     title: "Merkury",
     content: merkuryText,
-    images: `<img src="/solarImg/merkury1.jpg" alt="merkury1"> <img src="/solarImg/merkury2.jpg" alt="merkury2">`
+    images: `<img src="solarImg/merkury1.jpg" alt="merkury1"> <img src="solarImg/merkury2.jpg" alt="merkury2">`
 }
 
 let wenusObject = {
     title: "Wenus",
     content: wenusText,
-    images: `<img src="/solarImg/wenus1.jpg" alt="wenus1"> <img src="/solarImg/wenus2.jpg" alt="wenus2">`
+    images: `<img src="solarImg/wenus1.jpg" alt="wenus1"> <img src="solarImg/wenus2.jpg" alt="wenus2">`
 }
 
 let earthObject = {
     title: "Ziemia",
     content: earthText,
-    images: `<img src="/solarImg/earth1.jpg" alt="earth1"> <img src="/solarImg/earth2.png" alt="earth2">`
+    images: `<img src="solarImg/earth1.jpg" alt="earth1"> <img src="solarImg/earth2.png" alt="earth2">`
 }
 
 let marsObject = {
     title: "Mars",
     content: marsText,
-    images: `<img src="/solarImg/mars1.jpg" alt="mars1"> <img src="/solarImg/mars2.jpg" alt="mars2">`
+    images: `<img src="solarImg/mars1.jpg" alt="mars1"> <img src="solarImg/mars2.jpg" alt="mars2">`
 }
 
 let jupiterObject = {
     title: "Jowisz",
     content: jupiterText,
-    images: `<img src="/solarImg/jupiter1.jpg" alt="jupiter1"> <img src="/solarImg/jupiter2.jpg" alt="jupiter2">`
+    images: `<img src="solarImg/jupiter1.jpg" alt="jupiter1"> <img src="solarImg/jupiter2.jpg" alt="jupiter2">`
 }
 
 let saturnObject = {
     title: "Saturn",
     content: saturnText,
-    images: `<img src="/solarImg/saturn1.jpg" alt="saturn1"> <img src="/solarImg/saturn2.jpg" alt="saturn2">`
+    images: `<img src="solarImg/saturn1.jpg" alt="saturn1"> <img src="solarImg/saturn2.jpg" alt="saturn2">`
 }
 
 let uraniumObject = {
     title: "Uran",
     content: uraniumText,
-    images: `<img src="/solarImg/uran1.jpg" alt="uran1"> <img src="/solarImg/uran2.jpg" alt="uran2">`
+    images: `<img src="solarImg/uran1.jpg" alt="uran1"> <img src="solarImg/uran2.jpg" alt="uran2">`
 }
 
 let neptuneObject = {
     title: "Neuptun",
     content: neptuneText,
-    images: `<img src="/solarImg/neptun1.jpg" alt="neptun1"> <img src="/solarImg/neptun2.jpg" alt="neptun2">`
+    images: `<img src="solarImg/neptun1.jpg" alt="neptun1"> <img src="solarImg/neptun2.jpg" alt="neptun2">`
 }
 
 let ceresObject = {
     title: "Ceres",
     content: ceresText,
-    images: `<img src="/solarImg/ceres1.jpg" alt="ceres1"> <img src="/solarImg/ceres2.jpg" alt="ceres2">`
+    images: `<img src="solarImg/ceres1.jpg" alt="ceres1"> <img src="solarImg/ceres2.jpg" alt="ceres2">`
 }
 
 let plutonObject = {
     title: "Pluton",
     content: plutonText,
-    images: `<img src="/solarImg/pluton1.jpg" alt="pluton1">`
+    images: `<img src="solarImg/pluton1.jpg" alt="pluton1">`
 }
 
 let haumeaObject = {
     title: "Haumea",
     content: haumeaText,
-    images: `<img src="/solarImg/haumea1.jpg" alt="haumea1"> <img src="/solarImg/haumea2.jpg" alt="haumea2">`
+    images: `<img src="solarImg/haumea1.jpg" alt="haumea1"> <img src="solarImg/haumea2.jpg" alt="haumea2">`
 }
 
 let makemakeObject = {
     title: "Makemake",
     content: makemakeText,
-    images: `<img src="/solarImg/makemake1.png" alt="makemake1">`
+    images: `<img src="solarImg/makemake1.png" alt="makemake1">`
 }
 
 let erisObject = {
     title: "Eris",
     content: erisText,
-    images: `<img src="/solarImg/eris1.jpg" alt="eris1">`
+    images: `<img src="solarImg/eris1.jpg" alt="eris1">`
 }
 
 let kuiperObject = {
     title: "Pas Kuipera",
     content: kupierText,
-    images: `<img src="/solarImg/kuiperBelt1.jpg" alt="kuiperBelt1"> <img src="/solarImg/kuiperbelt2.png" alt="kuiperbelt2">`
+    images: `<img src="solarImg/kuiperBelt1.jpg" alt="kuiperBelt1"> <img src="solarImg/kuiperbelt2.png" alt="kuiperbelt2">`
 }
